@@ -1,0 +1,50 @@
+/* Navbar Başlık Stili */
+.blog-header-logo {
+    font-size: 2.25rem;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-weight: 600; /* Ortalama font kalınlığı */
+    text-decoration: underline; /* Çizgiyi kaldır */
+    position: relative; /* Çizginin konumlandırması için gerekli */
+  }
+  //underline çizgisinin üstüne gelince kaldır
+  .blog-header-logo::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0.25em;
+    right: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .blog-header-logo:hover {
+    text-decoration: none; /* Üzerine gelince çizgiyi kaldırma */
+  }
+
+//navbarın ortasına uzun ince bir çizgi ekle
+.blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  
+  /* Navbar Subscribe (Abone Ol) Stili */
+  .link-secondary {
+    color: #888; /* Abone Ol bağlantısının rengi */
+  }
+  
+  /* Navbar Search (Arama) Stili */
+  .link-secondary svg {
+    width: 20px; /* Arama simgesi boyutu */
+    height: 20px;
+  }
+  
+  /* Navbar Sign up (Kaydol) Stili */
+  .btn-outline-secondary {
+    color: #888; /* Kaydol düğmesinin metin rengi */
+    border-color: #888; /* Kaydol düğmesi kenarlık rengi */
+  }
+  
+  .btn-outline-secondary:hover {
+    color: #333; /* Kaydol düğmesinin üzerine gelindiğindeki metin rengi */
+    border-color: #333; /* Kaydol düğmesinin üzerine gelindiğindeki kenarlık rengi */
+  }
+  
