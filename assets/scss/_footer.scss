@@ -1,0 +1,27 @@
+
+.footer {
+  background-color: #fbfbfb;
+  padding: 20px;
+  text-align: center;
+
+
+  a {
+    color: #555;
+    text-decoration: none;
+    margin: 0 10px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .copyright {
+    font-size: 14px;
+    color: #888;
+    margin-top: 10px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,50 @@
+/* Sidebar stilleri */
+.sidebar {
+    position: sticky;
+    top: 2rem;
+  
+    .archive {
+      background-color: #f8f9fa;
+      padding: 1rem;
+      border-radius: 0.25rem;
+  
+      h4 {
+        font-style: italic;
+      }
+  
+      li {
+        margin-bottom: 0.5rem;
+  
+        a {
+          color: #007bff;
+          text-decoration: none;
+  
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  
+    .shared-posts {
+      padding: 1rem;
+  
+      h4 {
+        font-style: italic;
+      }
+  
+      li {
+        margin-bottom: 0.5rem;
+  
+        a {
+          color: #007bff;
+          text-decoration: none;
+  
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  

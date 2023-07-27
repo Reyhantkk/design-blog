@@ -1,0 +1,60 @@
+/* style.scss */
+
+/* Define any global styles or variables here */
+
+/* Bootstrap Grid System */
+.main-container {
+  // Define the maximum width for the content
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.col-md-4 {
+  // For medium-sized screens, occupy 4 columns out of 12
+  width: calc(33.3333333333% - 20px);
+  float: left;
+  margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0; // Remove right margin from the last column to avoid wrapping
+  }
+
+  .position-sticky {
+    position: sticky;
+    top: 2rem;
+  }
+
+  .p-4 {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px; /* Set border-radius to 10px for rounded corners */
+    margin-bottom: 20px;
+
+    h4 {
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    ol {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        margin-bottom: 10px;
+        a {
+          color: #64aaf5;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
