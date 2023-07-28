@@ -1,27 +1,42 @@
+/* footer.scss */
 
+/* Define any global styles or variables here */
+
+/* Footer Styling */
 .footer {
-  background-color: #fbfbfb;
-  padding: 20px;
-  text-align: center;
+  background-color: #f8f9fa; /* Set the background color for the footer */
+  padding: 20px; /* Add padding to the footer content */
+  text-align: center; /* Align the content to the center */
+  color: #333333; /* Set the text color for the footer */
+}
 
+.footer-content {
+  max-width: 1200px; /* Define the maximum width for the footer content */
+  margin: 0 auto; /* Center the content horizontally */
+}
 
-  a {
-    color: #555;
-    text-decoration: none;
-    margin: 0 10px;
+.footer-links {
+  list-style: none; /* Remove bullet points from the list */
+  padding: 0; /* Remove padding from the list */
+  margin: 10px 0; /* Add some margin to separate the links */
+}
 
-    &:hover {
-      text-decoration: underline;
-    }
-  }
+.footer-links li {
+  display: inline-block; /* Display the list items side by side */
+  margin: 0 10px; /* Add some horizontal margin between the links */
+}
 
-  .copyright {
-    font-size: 14px;
-    color: #888;
-    margin-top: 10px;
-  }
+.footer-links li a {
+  text-decoration: none; /* Remove underline from the links */
+  color: #007bff; /* Set the link color */
+}
 
-  @media (max-width: 768px) {
-    padding: 10px;
-  }
+.footer-links li a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Additional styling for the copyright text */
+.footer .copyright {
+  margin-top: 20px; /* Add some space between the links and the copyright text */
+  color: #777777; /* Set the text color for the copyright */
 }

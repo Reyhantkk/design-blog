@@ -48,16 +48,6 @@
   border-color: #333; /* Kaydol düğmesinin üzerine gelindiğindeki kenarlık rengi */
 }
 
-.light-mode body {
-  background-color: #ffffff;
-  color: #000000;
-}
-
-.dark-mode body {
-  background-color: #e41010;
-  color: #ffffff;
-}
-
 /* footer.scss */
 /* Define any global styles or variables here */
 /* Footer Styling */

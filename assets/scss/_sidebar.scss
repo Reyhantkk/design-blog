@@ -1,45 +1,55 @@
-/* Sidebar stilleri */
-.sidebar {
+/* style.scss */
+
+/* Define any global styles or variables here */
+
+/* Bootstrap Grid System */
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.col-md-4 {
+  width: calc(33.3333333333% - 20px);
+  float: left;
+  margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  .position-sticky {
     position: sticky;
     top: 2rem;
-  
-    .archive {
-      background-color: #f8f9fa;
-      padding: 1rem;
-      border-radius: 0.25rem;
-  
-      h4 {
-        font-style: italic;
-      }
-  
-      li {
-        margin-bottom: 0.5rem;
-  
-        a {
-          color: #007bff;
-          text-decoration: none;
-  
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-      }
+  }
+
+  .p-4 {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    h4 {
+      font-style: italic;
+      margin-bottom: 10px;
     }
-  
-    .shared-posts {
-      padding: 1rem;
-  
-      h4 {
-        font-style: italic;
-      }
-  
+
+    p {
+      margin: 0;
+    }
+
+    ol {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
       li {
-        margin-bottom: 0.5rem;
-  
+        margin-bottom: 10px;
         a {
-          color: #007bff;
+          color: #6A0DAD;
           text-decoration: none;
-  
+
           &:hover {
             text-decoration: underline;
           }
@@ -47,4 +57,5 @@
       }
     }
   }
-  
+}
+
