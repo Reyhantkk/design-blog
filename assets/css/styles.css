@@ -48,14 +48,19 @@
   border-color: #333; /* Kaydol düğmesinin üzerine gelindiğindeki kenarlık rengi */
 }
 
-.light-mode body {
-  background-color: #ffffff;
-  color: #000000;
+body {
+  background-image: url("arkaplan_resim_url.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.dark-mode body {
-  background-color: #e41010;
-  color: #ffffff;
+.main-content {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.main-content h1,
+.main-content p {
+  color: white;
 }
 
 /* footer.scss */

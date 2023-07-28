@@ -1,0 +1,16 @@
+$arkaplan_resim_url: "arkaplan_resim_url.jpg"; // Arka plan resmi URL'si
+
+body {
+  background-image: url($arkaplan_resim_url);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main-content {
+  background-color: rgba(0, 0, 0, 0.6); // Geçirgen siyah arkaplan
+  h1,
+  p {
+    color: white; // Yazı rengi beyaz
+  }
+}
