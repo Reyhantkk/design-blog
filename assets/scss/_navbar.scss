@@ -6,7 +6,7 @@ $font-family-montserrat: 'Montserrat', sans-serif;
   font-size: 2.25rem;
   color: $primary-color;
   font-family: $font-family-montserrat;
-  font-weight: 600; // Kalınlaştırma burada yapılıyor.
+  font-weight: 600; 
   position: relative;
 
   &::after {
@@ -16,7 +16,7 @@ $font-family-montserrat: 'Montserrat', sans-serif;
     bottom: -0.25em;
     right: 0;
     font-family: $font-family-montserrat;
-    font-weight: bold; // Yine kalınlaştırma burada yapılıyor.
+    font-weight: bold; 
     border-bottom: 1px solid $border-color;
   }
 
