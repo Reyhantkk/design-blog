@@ -370,4 +370,14 @@ body {
 
 .blog-post a:hover {
   text-decoration: underline;
+}
+
+.blog-post-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #6A0DAD;
+}
+
+.blog-post h1, .blog-post h2, .blog-post h3, .blog-post h4, .blog-post h5, .blog-post h6 {
+  color: #6A0DAD;
 }/*# sourceMappingURL=styles.css.map */
