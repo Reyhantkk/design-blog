@@ -1,0 +1,73 @@
+
+// Swiper Styles
+$swiper-navigation-color: #fff;
+$swiper-pagination-color: #fff;
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  background: #000;
+
+  &-slide {
+    font-size: 18px;
+    color: #fff;
+
+    padding: 40px 60px;
+  }
+}
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+ margin: auto;
+  background-position: center;
+}
+//slider link 
+.swiper-slide a {
+  color: #6A0DAD;
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+.swiper-slide .title {
+  font-size: 41px;
+  font-weight: 300;
+  //rengi
+  color: #6A0DAD;
+  font-weight: bold;
+  text-align: center;
+  //font times
+  font-family: "Times New Roman", Times, serif;
+  margin: auto;
+}
+
+.swiper-slide .subtitle {
+  font-size: 21px;
+}
+
+.swiper-slide .text {
+  font-size: 14px;
+  max-width: 400px;
+  line-height: 1.3;
+  text-align: center;
+
+  font-weight: bold;
+  margin: auto;
+  font-family: "Times New Roman", Times, serif;
+  
+}
+
+.swiper-slide .img {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}

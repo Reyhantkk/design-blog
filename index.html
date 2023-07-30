@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 </head>
 <body>
   
@@ -43,20 +44,67 @@
       </nav>
     </div>
   </div>
+  <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper">
+    <div class="parallax-bg" style="
+      background-image: url(assets/img/01.jpg);
+        " data-swiper-parallax="-23%"></div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="title" data-swiper-parallax="-300">WHY PEOPLE CARE ABOUT THE UNIVERSE</div>
   
-  
-  <main class="container">
-    <div class="main-content">
-      <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
-        <div class="col-md-6 px-0">
-          <h1 class="display-4 fst-italic">INTERESTING MYSTERIES OF THE UNIVERSE AND SPACE...</h1>
-          <p class="lead my-3">Dark Matter and Dark Energy,Black Holes,The Big Bang,Exoplanets and Habitable Worlds,Cosmic Inflation,Multiverse Hypothesis,Galactic Cannibalism</p>
-          <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+        <div class="text" data-swiper-parallax="-100">
+          <p>
+            The universe is an endless field of exploration that astronomers explore.
+            Striving to understand the nature of space, scientists investigate the structure of the universe by observing celestial bodies.
+            With the help of telescopes and space probes, they study distant galaxies and black holes.
+            They work hard to understand the origin and evolution of the universe.
+            While the big bang theory explains the beginning of the universe, deeper secrets still await unraveling.
+            Scientists dealing with the universe offer critical clues about the existence of humanity and our place in the universe.
+            The infinity and mysteries of the universe is a magical field that constantly excites the scientific world and continues to research.
+     
+          </p>
+          <a href="#read-more-1">Let's take a closer look</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title" data-swiper-parallax="-300">WHAT ARE BLACK HOLES</div>
+      
+        <div class="text" data-swiper-parallax="-100">
+          <p>
+            Black holes are among the most mysterious and striking phenomena of the universe.
+It is the region where giant stars collapse after completing their lives.
+In these regions where gravity is extraordinarily strong, even matter and light cannot escape.
+Black holes bend the space around them, slowing down time, and bending light to create stunning images of varying sizes.
+The concept of "singularity", called the "point of infinite density" at their center, is beyond the laws of physics.
+As astronomers and astrophysicists try to understand black holes with space telescopes and other research instruments, they try to unravel the secrets of these mysterious and magical structures that exist in the universe.
+Black holes represent a magnificent but also surprising and complex aspect of the universe that constantly astounds scientists.
+          </p>
+          <a href="#read-more-1">Let's take a closer look</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title" data-swiper-parallax="-300">ABOUT THE INFINITY OF THE UNIVERSE</div>
+    
+        <div class="text" data-swiper-parallax="-100">
+          <p>
+            The infinity of the universe is a subject that humanity has wondered and discussed for centuries.
+            Although it is difficult to even understand how big the universe is, there is no definitive answer as to whether it is infinite or not.
+            While there are cosmologists who believe that the universe is spread out in unlimited space, according to other theories, the universe may have a limit.
+            While the Big Bang theory suggests that the universe started at a point and is constantly expanding, it is not yet known whether this expansion takes place in an infinite space.
+            This obscurity is a constant source of inspiration for scientists and researchers to understand the mysterious and magical nature of the universe.
+            Discussions about the infinity of the universe turn into a fascinating journey of discovery that questions the meaning of humanity's existence and our place in the universe.
+          </p>
+          <a href="#read-more-1">Let's take a closer look</a>
         </div>
       </div>
     </div>
-    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
   
+
+
     <div class="row mb-2">
       <div class="col-md-6">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
@@ -357,11 +405,26 @@
     <p class="copyright">© 2023 My Website. All rights reserved.</p>
   </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    speed: 600,
+    parallax: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
 
 <link rel="stylesheet" href="assets/css/styles.css">
-<script src="script.js"></script>
-    
+
   </body>
 </html>
 

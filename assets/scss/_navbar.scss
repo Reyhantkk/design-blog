@@ -14,21 +14,22 @@
     bottom: -0.25em;
     right: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    
   }
   .blog-header-logo:hover {
-    text-decoration: none; /* Üzerine gelince çizgiyi kaldırma */
+    text-decoration: none; 
   }
 
 //navbarın ortasına uzun ince bir çizgi ekle
 .blog-header {
     line-height: 1;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #6A0DAD;
   }
   
   
   /* Navbar Subscribe (Abone Ol) Stili */
   .link-secondary {
-    color: #888; /* Abone Ol bağlantısının rengi */
+    color: #6A0DAD; /* Abone Ol bağlantısının rengi */
   }
   
   /* Navbar Search (Arama) Stili */
@@ -39,12 +40,12 @@
   
   /* Navbar Sign up (Kaydol) Stili */
   .btn-outline-secondary {
-    color: #888; /* Kaydol düğmesinin metin rengi */
-    border-color: #888; /* Kaydol düğmesi kenarlık rengi */
+    color: #6A0DAD; /* Kaydol düğmesinin metin rengi */
+    border-color: #6A0DAD; /* Kaydol düğmesi kenarlık rengi */
   }
   
   .btn-outline-secondary:hover {
-    color: #333; /* Kaydol düğmesinin üzerine gelindiğindeki metin rengi */
-    border-color: #333; /* Kaydol düğmesinin üzerine gelindiğindeki kenarlık rengi */
+    color: #6A0DAD; /* Kaydol düğmesinin üzerine gelindiğindeki metin rengi */
+    border-color: #6A0DAD; /* Kaydol düğmesinin üzerine gelindiğindeki kenarlık rengi */
   }
   
