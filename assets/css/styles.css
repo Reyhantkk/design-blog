@@ -1,11 +1,10 @@
 @charset "UTF-8";
-/* Navbar Başlık Stili */
 .blog-header-logo {
   font-size: 2.25rem;
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 600; /* Ortalama font kalınlığı */
-  text-decoration: underline; /* Çizgiyi kaldır */
-  position: relative; /* Çizginin konumlandırması için gerekli */
+  font-weight: 600;
+  text-decoration: underline;
+  position: relative;
 }
 
 .blog-header-logo::after {
@@ -14,7 +13,7 @@
   left: 0;
   bottom: -0.25em;
   right: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #000;
 }
 
 .blog-header-logo:hover {
@@ -23,29 +22,26 @@
 
 .blog-header {
   line-height: 1;
-  border-bottom: 1px solid #6A0DAD;
+  border-bottom: 1px solid #000;
 }
 
-/* Navbar Subscribe (Abone Ol) Stili */
 .link-secondary {
-  color: #6A0DAD; /* Abone Ol bağlantısının rengi */
+  color: #000;
 }
 
-/* Navbar Search (Arama) Stili */
 .link-secondary svg {
-  width: 20px; /* Arama simgesi boyutu */
+  width: 20px;
   height: 20px;
 }
 
-/* Navbar Sign up (Kaydol) Stili */
 .btn-outline-secondary {
-  color: #6A0DAD; /* Kaydol düğmesinin metin rengi */
-  border-color: #6A0DAD; /* Kaydol düğmesi kenarlık rengi */
+  color: #000;
+  border-color: #000;
 }
 
 .btn-outline-secondary:hover {
-  color: #6A0DAD; /* Kaydol düğmesinin üzerine gelindiğindeki metin rengi */
-  border-color: #6A0DAD; /* Kaydol düğmesinin üzerine gelindiğindeki kenarlık rengi */
+  color: #000;
+  border-color: #000;
 }
 
 body {
@@ -85,7 +81,7 @@ body {
 }
 
 .swiper-slide a {
-  color: #6A0DAD;
+  color: #000;
   text-decoration: underline;
   font-family: "Times New Roman", Times, serif;
 }
@@ -93,7 +89,7 @@ body {
 .swiper-slide .title {
   font-size: 41px;
   font-weight: 300;
-  color: #6A0DAD;
+  color: #6c0d91;
   font-weight: bold;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
@@ -125,7 +121,6 @@ body {
   margin: auto;
 }
 
-/* Common styles for both cards */
 .container {
   font-family: "Times New Roman", Times, serif;
 }
@@ -135,12 +130,12 @@ body {
 }
 
 .row.g-0.border.rounded.overflow-hidden.flex-md-row.mb-4.shadow-sm.h-md-250.position-relative {
-  background-color: #f7f7f7; /* Açık gri arkaplan */
+  background-color: #f7f7f7;
 }
 
 .col-md-6 {
-  display: flex; /* Kartları yan yana hizalamak için */
-  margin-bottom: 20px; /* Kartlar arasında boşluk bırakmak için */
+  display: flex;
+  margin-bottom: 20px;
 }
 
 .col-md-6 .col.p-4.d-flex.flex-column.position-static {
@@ -149,113 +144,105 @@ body {
 
 /* SCİENCE kartı */
 .col-md-6:first-child {
-  color: #800080; /* Mor yazılar */
+  color: #000;
 }
 
 .col-md-6:first-child .strong.d-inline-block.mb-2.text-primary {
-  color: #800080; /* Mor etiketler */
+  color: #000;
 }
 
 .col-md-6:first-child .h3.mb-0 {
-  color: #800080; /* Mor başlıklar */
+  color: #6A0DAD;
 }
 
 .col-md-6:first-child .mb-1.text-muted {
-  color: #800080; /* Mor tarih metni */
+  color: #000;
 }
 
 .col-md-6:first-child .p.card-text.mb-auto {
-  color: #000; /* Siyah yazılar */
+  color: #000;
 }
 
 .col-md-6:first-child .a.stretched-link {
-  color: #800080; /* Mor bağlantılar */
+  color: #000;
   font-size: 14px;
   text-decoration: none;
 }
 
 .col-md-6:first-child img {
-  width: 200px; /* Kartların resimleri aynı boyutta olsun */
+  width: 200px;
   height: 250px;
-  margin-right: 20px; /* Kartlar arasına boşluk eklemek için */
+  margin-right: 20px;
 }
 
-/* MOON kartı */
 .col-md-6:last-child {
-  color: #800080; /* Mor yazılar */
+  color: #000;
 }
 
 .col-md-6:last-child .strong.d-inline-block.mb-2.text-success {
-  color: #800080; /* Mor etiketler */
+  color: #000;
 }
 
 .col-md-6:last-child .h3.mb-0 {
-  color: #800080; /* Mor başlıklar */
+  color: #000;
 }
 
 .col-md-6:last-child .mb-1.text-muted {
-  color: #800080; /* Mor tarih metni */
+  color: #000;
 }
 
 .col-md-6:last-child .p.card-text.mb-auto {
-  color: #000; /* Siyah yazılar */
+  color: #000;
 }
 
 .col-md-6:last-child .a.stretched-link {
-  color: #800080; /* Mor bağlantılar */
+  color: #000;
   font-size: 14px;
   text-decoration: none;
 }
 
 .col-md-6:last-child video {
-  width: 320px; /* Video boyutları aynı olacak */
+  width: 320px;
   height: 240px;
 }
 
-/* footer.scss */
-/* Define any global styles or variables here */
-/* Footer Styling */
 .footer {
-  background-color: #f8f9fa; /* Set the background color for the footer */
-  padding: 20px; /* Add padding to the footer content */
-  text-align: center; /* Align the content to the center */
-  color: #333333; /* Set the text color for the footer */
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  color: #333333;
 }
 
 .footer-content {
-  max-width: 1200px; /* Define the maximum width for the footer content */
-  margin: 0 auto; /* Center the content horizontally */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .footer-links {
-  list-style: none; /* Remove bullet points from the list */
-  padding: 0; /* Remove padding from the list */
-  margin: 10px 0; /* Add some margin to separate the links */
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
 }
 
 .footer-links li {
-  display: inline-block; /* Display the list items side by side */
-  margin: 0 10px; /* Add some horizontal margin between the links */
+  display: inline-block;
+  margin: 0 10px;
 }
 
 .footer-links li a {
-  text-decoration: none; /* Remove underline from the links */
-  color: #6A0DAD; /* Set the link color */
+  text-decoration: none;
+  color: #000000;
 }
 
 .footer-links li a:hover {
-  text-decoration: underline; /* Add underline on hover */
+  text-decoration: underline;
 }
 
-/* Additional styling for the copyright text */
 .footer .copyright {
-  margin-top: 20px; /* Add some space between the links and the copyright text */
-  color: #6A0DAD; /* Set the text color for the copyright */
+  margin-top: 20px;
+  color: #000000;
 }
 
-/* style.scss */
-/* Define any global styles or variables here */
-/* Bootstrap Grid System */
 .main-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -297,7 +284,7 @@ body {
   margin-bottom: 10px;
 }
 .col-md-4 .p-4 ol li a {
-  color: #6A0DAD;
+  color: #000;
   text-decoration: none;
 }
 .col-md-4 .p-4 ol li a:hover {
@@ -314,7 +301,7 @@ body {
 .blog-post-title {
   font-size: 28px;
   font-weight: bold;
-  color: #333;
+  color: #6a13ad;
 }
 
 .blog-post-meta {
@@ -323,13 +310,13 @@ body {
 }
 
 .blog-post p {
-  color: #333;
+  color: #6a13ad;
   font-size: 16px;
   line-height: 1.6;
 }
 
 .blog-post ul {
-  color: #333;
+  color: #6a13ad;
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 15px;
@@ -353,8 +340,8 @@ body {
 }
 
 .blog-pagination .btn-outline-secondary {
-  border-color: #6c757d;
-  color: #6c757d;
+  border-color: #888;
+  color: #888;
   cursor: not-allowed;
 }
 
@@ -372,12 +359,11 @@ body {
   text-decoration: underline;
 }
 
-.blog-post-title {
-  font-size: 28px;
-  font-weight: bold;
-  color: #6A0DAD;
-}
-
-.blog-post h1, .blog-post h2, .blog-post h3, .blog-post h4, .blog-post h5, .blog-post h6 {
-  color: #6A0DAD;
+.blog-post h1,
+.blog-post h2,
+.blog-post h3,
+.blog-post h4,
+.blog-post h5,
+.blog-post h6 {
+  color: #000;
 }/*# sourceMappingURL=styles.css.map */

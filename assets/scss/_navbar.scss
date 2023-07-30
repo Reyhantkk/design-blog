@@ -1,51 +1,55 @@
-/* Navbar Başlık Stili */
-.blog-header-logo {
-    font-size: 2.25rem;
-    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-    font-weight: 600; /* Ortalama font kalınlığı */
-    text-decoration: underline; /* Çizgiyi kaldır */
-    position: relative; /* Çizginin konumlandırması için gerekli */
-  }
-  //underline çizgisinin üstüne gelince kaldır
-  .blog-header-logo::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -0.25em;
-    right: 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    
-  }
-  .blog-header-logo:hover {
-    text-decoration: none; 
-  }
 
-//navbarın ortasına uzun ince bir çizgi ekle
+$primary-color: #000
+;
+$border-color: #000;
+
+
+.blog-header-logo {
+  font-size: 2.25rem;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: 600; 
+  text-decoration: underline; 
+  position: relative; 
+}
+
+
+.blog-header-logo::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.25em;
+  right: 0;
+  border-bottom: 1px solid $border-color;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+
 .blog-header {
-    line-height: 1;
-    border-bottom: 1px solid #6A0DAD;
-  }
-  
-  
-  /* Navbar Subscribe (Abone Ol) Stili */
-  .link-secondary {
-    color: #6A0DAD; /* Abone Ol bağlantısının rengi */
-  }
-  
-  /* Navbar Search (Arama) Stili */
-  .link-secondary svg {
-    width: 20px; /* Arama simgesi boyutu */
-    height: 20px;
-  }
-  
-  /* Navbar Sign up (Kaydol) Stili */
-  .btn-outline-secondary {
-    color: #6A0DAD; /* Kaydol düğmesinin metin rengi */
-    border-color: #6A0DAD; /* Kaydol düğmesi kenarlık rengi */
-  }
-  
-  .btn-outline-secondary:hover {
-    color: #6A0DAD; /* Kaydol düğmesinin üzerine gelindiğindeki metin rengi */
-    border-color: #6A0DAD; /* Kaydol düğmesinin üzerine gelindiğindeki kenarlık rengi */
-  }
-  
+  line-height: 1;
+  border-bottom: 1px solid $primary-color;
+}
+
+
+.link-secondary {
+  color: $primary-color; 
+}
+
+
+.link-secondary svg {
+  width: 20px; 
+  height: 20px;
+}
+
+
+.btn-outline-secondary {
+  color: $primary-color; 
+  border-color: $primary-color; 
+}
+
+.btn-outline-secondary:hover {
+  color: $primary-color; 
+  border-color: $primary-color; 
+}

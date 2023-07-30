@@ -1,42 +1,42 @@
-/* footer.scss */
+ 
+$footer-bg-color: #f8f9fa; 
+$footer-text-color: #333333; 
+$footer-link-color: #000000; 
 
-/* Define any global styles or variables here */
 
-/* Footer Styling */
 .footer {
-  background-color: #f8f9fa; /* Set the background color for the footer */
-  padding: 20px; /* Add padding to the footer content */
-  text-align: center; /* Align the content to the center */
-  color: #333333; /* Set the text color for the footer */
+  background-color: $footer-bg-color;
+  padding: 20px;
+  text-align: center;
+  color: $footer-text-color;
 }
 
 .footer-content {
-  max-width: 1200px; /* Define the maximum width for the footer content */
-  margin: 0 auto; /* Center the content horizontally */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .footer-links {
-  list-style: none; /* Remove bullet points from the list */
-  padding: 0; /* Remove padding from the list */
-  margin: 10px 0; /* Add some margin to separate the links */
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
 }
 
 .footer-links li {
-  display: inline-block; /* Display the list items side by side */
-  margin: 0 10px; /* Add some horizontal margin between the links */
+  display: inline-block;
+  margin: 0 10px;
 }
 
 .footer-links li a {
-  text-decoration: none; /* Remove underline from the links */
-  color: #6A0DAD; /* Set the link color */
+  text-decoration: none;
+  color: $footer-link-color;
 }
 
 .footer-links li a:hover {
-  text-decoration: underline; /* Add underline on hover */
+  text-decoration: underline;
 }
 
-/* Additional styling for the copyright text */
 .footer .copyright {
-  margin-top: 20px; /* Add some space between the links and the copyright text */
-  color: #6A0DAD; /* Set the text color for the copyright */
+  margin-top: 20px;
+  color: $footer-link-color;
 }

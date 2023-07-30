@@ -1,13 +1,16 @@
-/* style.scss */
 
-/* Define any global styles or variables here */
 
-/* Bootstrap Grid System */
+
+$background-color: #f8f9fa;
+$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+
 .main-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
+
 
 .col-md-4 {
   width: calc(33.3333333333% - 20px);
@@ -18,17 +21,19 @@
     margin-right: 0;
   }
 
+
   .position-sticky {
     position: sticky;
     top: 2rem;
   }
 
+
   .p-4 {
     padding: 20px;
-    background-color: #f8f9fa;
+    background-color: $background-color;
     border-radius: 10px;
     margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: $box-shadow;
 
     h4 {
       font-style: italic;
@@ -39,6 +44,7 @@
       margin: 0;
     }
 
+    
     ol {
       list-style: none;
       padding: 0;
@@ -47,7 +53,7 @@
       li {
         margin-bottom: 10px;
         a {
-          color: #6A0DAD;
+          color: $primary-color;
           text-decoration: none;
 
           &:hover {
@@ -58,4 +64,3 @@
     }
   }
 }
-
