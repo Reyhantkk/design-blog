@@ -1,84 +1,77 @@
-
-
+$font-family-montserrat: 'Montserrat', sans-serif;
 $secondary-color: #888;
 $link-color: #007bff;
 $background-color: #f7f7f7;
-
 
 .blog-post {
   background-color: $background-color;
   padding: 20px;
   border-radius: 5px;
   margin-bottom: 20px;
-}
 
-.blog-post-title {
-  font-size: 28px;
-  font-weight: bold;
-  color: #6a13ad;
-}
+  &-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #6a13ad;
+    font-family: $font-family-montserrat;
+  }
 
-.blog-post-meta {
-  color: $secondary-color;
-  margin-bottom: 10px;
-}
+  &-meta {
+    color: $secondary-color;
+    margin-bottom: 10px;
+    font-family: $font-family-montserrat;
+  }
 
-.blog-post p {
-  color: #6a13ad;
-  font-size: 16px;
-  line-height: 1.6;
-}
+  p, ul {
+    color: #6a13ad;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-family: $font-family-montserrat;
+  }
 
-.blog-post ul {
-  color: #6a13ad;
-  font-size: 16px;
-  line-height: 1.6;
-  margin-bottom: 15px;
-}
+  .blog-pagination {
+    margin-top: 30px;
+    font-family: $font-family-montserrat;
 
-.blog-pagination {
-  margin-top: 30px;
-}
+    a {
+      font-size: 14px;
+      text-decoration: none;
+      border-radius: 30px;
+      padding: 8px 16px;
+      margin-right: 10px;
+      font-family: $font-family-montserrat;
 
-.blog-pagination a {
-  font-size: 14px;
-  text-decoration: none;
-  border-radius: 30px;
-  padding: 8px 16px;
-  margin-right: 10px;
-}
+      &.btn-outline-primary {
+        border-color: $link-color;
+        color: $link-color;
+        cursor: pointer;
 
-.blog-pagination .btn-outline-primary {
-  border-color: $link-color;
-  color: $link-color;
-}
+        &:hover {
+          background-color: $link-color;
+          color: #fff;
+        }
+      }
 
-.blog-pagination .btn-outline-secondary {
-  border-color: $secondary-color;
-  color: $secondary-color;
-  cursor: not-allowed;
-}
+      &.btn-outline-secondary {
+        border-color: $secondary-color;
+        color: $secondary-color;
+        cursor: not-allowed;
+      }
+    }
+  }
 
-.blog-pagination .btn-outline-primary:hover {
-  background-color: $link-color;
-  color: #fff;
-}
+  a {
+    color: $link-color;
+    text-decoration: none;
 
-.blog-post a {
-  color: $link-color;
-  text-decoration: none;
-}
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 
-.blog-post a:hover {
-  text-decoration: underline;
-}
-
-
-.blog-post h1,
-.blog-post h2,
-.blog-post h3,
-.blog-post h4,
-.blog-post h5,
-.blog-post h6 {
-  color: #000;
+  h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    font-family: $font-family-montserrat;
+  }
 }

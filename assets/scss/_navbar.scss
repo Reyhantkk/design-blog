@@ -1,55 +1,54 @@
-
-$primary-color: #000
-;
-$border-color: #000;
-
+$primary-color: #000;
+$border-color: #fcfcfc;
+$font-family-montserrat: 'Montserrat', sans-serif;
 
 .blog-header-logo {
   font-size: 2.25rem;
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-  font-weight: 600; 
-  text-decoration: underline; 
-  position: relative; 
+  color: $primary-color;
+  font-family: $font-family-montserrat;
+  font-weight: 600; // Kalınlaştırma burada yapılıyor.
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0.25em;
+    right: 0;
+    font-family: $font-family-montserrat;
+    font-weight: bold; // Yine kalınlaştırma burada yapılıyor.
+    border-bottom: 1px solid $border-color;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
 }
-
-
-.blog-header-logo::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -0.25em;
-  right: 0;
-  border-bottom: 1px solid $border-color;
-}
-
-.blog-header-logo:hover {
-  text-decoration: none;
-}
-
 
 .blog-header {
   line-height: 1;
   border-bottom: 1px solid $primary-color;
 }
 
-
 .link-secondary {
-  color: $primary-color; 
+  color: $primary-color;
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
 }
-
-
-.link-secondary svg {
-  width: 20px; 
-  height: 20px;
-}
-
 
 .btn-outline-secondary {
-  color: $primary-color; 
-  border-color: $primary-color; 
+  color: $primary-color;
+  border-color: $primary-color;
+
+  &:hover {
+    color: $primary-color;
+    border-color: $primary-color;
+  }
 }
 
-.btn-outline-secondary:hover {
-  color: $primary-color; 
-  border-color: $primary-color; 
+.navbar-brand {
+  font-family: $font-family-montserrat;
 }

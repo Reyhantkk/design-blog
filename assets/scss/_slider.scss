@@ -1,6 +1,5 @@
 
-$font-family: "Times New Roman", Times, serif;
-
+$font-family-montserrat: 'Montserrat', sans-serif;
 
 
 .swiper {
@@ -29,7 +28,7 @@ $font-family: "Times New Roman", Times, serif;
 .swiper-slide a {
   color: $primary-color;
   text-decoration: underline;
-  font-family: $font-family;
+  font-family: $font-family-montserrat;
 }
 
 .swiper-slide .title {
@@ -38,7 +37,7 @@ $font-family: "Times New Roman", Times, serif;
   color: #6c0d91;
   font-weight: bold;
   text-align: center;
-  font-family: $font-family;
+  font-family: $font-family-montserrat;
   margin: auto;
 }
 
@@ -53,7 +52,7 @@ $font-family: "Times New Roman", Times, serif;
   text-align: center;
   font-weight: bold;
   margin: auto;
-  font-family: $font-family;
+  font-family: $font-family-montserrat;
 }
 
 .swiper-slide .img {

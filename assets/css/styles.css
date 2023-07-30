@@ -1,21 +1,21 @@
 @charset "UTF-8";
 .blog-header-logo {
   font-size: 2.25rem;
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  text-decoration: underline;
   position: relative;
 }
-
 .blog-header-logo::after {
   content: "";
   position: absolute;
   left: 0;
   bottom: -0.25em;
   right: 0;
-  border-bottom: 1px solid #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border-bottom: 1px solid #fcfcfc;
 }
-
 .blog-header-logo:hover {
   text-decoration: none;
 }
@@ -28,7 +28,6 @@
 .link-secondary {
   color: #000;
 }
-
 .link-secondary svg {
   width: 20px;
   height: 20px;
@@ -38,10 +37,13 @@
   color: #000;
   border-color: #000;
 }
-
 .btn-outline-secondary:hover {
   color: #000;
   border-color: #000;
+}
+
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -83,7 +85,7 @@ body {
 .swiper-slide a {
   color: #000;
   text-decoration: underline;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .swiper-slide .title {
@@ -92,7 +94,7 @@ body {
   color: #6c0d91;
   font-weight: bold;
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Montserrat", sans-serif;
   margin: auto;
 }
 
@@ -107,7 +109,7 @@ body {
   text-align: center;
   font-weight: bold;
   margin: auto;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .swiper-slide .img {
@@ -253,6 +255,7 @@ body {
   width: calc(33.3333333333% - 20px);
   float: left;
   margin-right: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 .col-md-4:last-child {
   margin-right: 0;
@@ -267,25 +270,30 @@ body {
   border-radius: 10px;
   margin-bottom: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: "Montserrat", sans-serif;
 }
 .col-md-4 .p-4 h4 {
   font-style: italic;
   margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
 }
 .col-md-4 .p-4 p {
   margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 .col-md-4 .p-4 ol {
   list-style: none;
   padding: 0;
   margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 .col-md-4 .p-4 ol li {
   margin-bottom: 10px;
 }
 .col-md-4 .p-4 ol li a {
-  color: #000;
+  color: #007bff;
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
 }
 .col-md-4 .p-4 ol li a:hover {
   text-decoration: underline;
@@ -297,73 +305,58 @@ body {
   border-radius: 5px;
   margin-bottom: 20px;
 }
-
 .blog-post-title {
   font-size: 28px;
   font-weight: bold;
   color: #6a13ad;
+  font-family: "Montserrat", sans-serif;
 }
-
 .blog-post-meta {
   color: #888;
   margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
 }
-
-.blog-post p {
-  color: #6a13ad;
-  font-size: 16px;
-  line-height: 1.6;
-}
-
-.blog-post ul {
+.blog-post p, .blog-post ul {
   color: #6a13ad;
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 15px;
+  font-family: "Montserrat", sans-serif;
 }
-
-.blog-pagination {
+.blog-post .blog-pagination {
   margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
 }
-
-.blog-pagination a {
+.blog-post .blog-pagination a {
   font-size: 14px;
   text-decoration: none;
   border-radius: 30px;
   padding: 8px 16px;
   margin-right: 10px;
+  font-family: "Montserrat", sans-serif;
 }
-
-.blog-pagination .btn-outline-primary {
+.blog-post .blog-pagination a.btn-outline-primary {
   border-color: #007bff;
   color: #007bff;
+  cursor: pointer;
 }
-
-.blog-pagination .btn-outline-secondary {
+.blog-post .blog-pagination a.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+.blog-post .blog-pagination a.btn-outline-secondary {
   border-color: #888;
   color: #888;
   cursor: not-allowed;
 }
-
-.blog-pagination .btn-outline-primary:hover {
-  background-color: #007bff;
-  color: #fff;
-}
-
 .blog-post a {
   color: #007bff;
   text-decoration: none;
 }
-
 .blog-post a:hover {
   text-decoration: underline;
 }
-
-.blog-post h1,
-.blog-post h2,
-.blog-post h3,
-.blog-post h4,
-.blog-post h5,
-.blog-post h6 {
+.blog-post h1, .blog-post h2, .blog-post h3, .blog-post h4, .blog-post h5, .blog-post h6 {
   color: #000;
+  font-family: "Montserrat", sans-serif;
 }/*# sourceMappingURL=styles.css.map */

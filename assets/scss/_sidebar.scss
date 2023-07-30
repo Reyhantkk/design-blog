@@ -1,9 +1,7 @@
-
-
-
+$font-family-montserrat: 'Montserrat', sans-serif;
 $background-color: #f8f9fa;
 $box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
+$primary-color: #007bff; 
 
 .main-container {
   max-width: 1200px;
@@ -11,22 +9,20 @@ $box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
 }
 
-
 .col-md-4 {
   width: calc(33.3333333333% - 20px);
   float: left;
   margin-right: 20px;
+  font-family: $font-family-montserrat;
 
   &:last-child {
     margin-right: 0;
   }
 
-
   .position-sticky {
     position: sticky;
     top: 2rem;
   }
-
 
   .p-4 {
     padding: 20px;
@@ -34,27 +30,31 @@ $box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     margin-bottom: 20px;
     box-shadow: $box-shadow;
+    font-family: $font-family-montserrat;
 
     h4 {
       font-style: italic;
       margin-bottom: 10px;
+      font-family: $font-family-montserrat;
     }
 
     p {
       margin: 0;
+      font-family: $font-family-montserrat;
     }
 
-    
     ol {
       list-style: none;
       padding: 0;
       margin: 0;
+      font-family: $font-family-montserrat;
 
       li {
         margin-bottom: 10px;
         a {
           color: $primary-color;
           text-decoration: none;
+          font-family: $font-family-montserrat;
 
           &:hover {
             text-decoration: underline;
