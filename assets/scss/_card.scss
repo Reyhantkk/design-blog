@@ -1,0 +1,86 @@
+/* Common styles for both cards */
+.container {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.row.mb-2 {
+  margin-bottom: 20px;
+}
+
+.row.g-0.border.rounded.overflow-hidden.flex-md-row.mb-4.shadow-sm.h-md-250.position-relative {
+  background-color: #f7f7f7; /* Açık gri arkaplan */
+}
+
+.col-md-6 {
+  display: flex; /* Kartları yan yana hizalamak için */
+  margin-bottom: 20px; /* Kartlar arasında boşluk bırakmak için */
+}
+
+.col-md-6 .col.p-4.d-flex.flex-column.position-static {
+  padding: 20px;
+}
+
+/* SCİENCE kartı */
+.col-md-6:first-child {
+  color: #800080; /* Mor yazılar */
+}
+
+.col-md-6:first-child .strong.d-inline-block.mb-2.text-primary {
+  color: #800080; /* Mor etiketler */
+}
+
+.col-md-6:first-child .h3.mb-0 {
+  color: #800080; /* Mor başlıklar */
+}
+
+.col-md-6:first-child .mb-1.text-muted {
+  color: #800080; /* Mor tarih metni */
+}
+
+.col-md-6:first-child .p.card-text.mb-auto {
+  color: #000; /* Siyah yazılar */
+}
+
+.col-md-6:first-child .a.stretched-link {
+  color: #800080; /* Mor bağlantılar */
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.col-md-6:first-child img {
+  width: 200px; /* Kartların resimleri aynı boyutta olsun */
+  height: 250px;
+  margin-right: 20px; /* Kartlar arasına boşluk eklemek için */
+}
+
+/* MOON kartı */
+.col-md-6:last-child {
+  color: #800080; /* Mor yazılar */
+}
+
+.col-md-6:last-child .strong.d-inline-block.mb-2.text-success {
+  color: #800080; /* Mor etiketler */
+}
+
+.col-md-6:last-child .h3.mb-0 {
+  color: #800080; /* Mor başlıklar */
+}
+
+.col-md-6:last-child .mb-1.text-muted {
+  color: #800080; /* Mor tarih metni */
+}
+
+.col-md-6:last-child .p.card-text.mb-auto {
+  color: #000; /* Siyah yazılar */
+}
+
+.col-md-6:last-child .a.stretched-link {
+  color: #800080; /* Mor bağlantılar */
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.col-md-6:last-child video {
+  width: 320px; /* Video boyutları aynı olacak */
+  height: 240px;
+}
